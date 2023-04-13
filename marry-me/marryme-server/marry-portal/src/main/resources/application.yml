@@ -1,0 +1,56 @@
+server:
+  port: 8088
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ANT_PATH_MATCHER
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:mysql://n1.catnas.site:3306/marryme?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&useSSL=false
+    username: root
+    password: mizhuo123
+    hikari:
+      maximum-pool-size: 100  #连接池中允许的最大连接数
+      minimum-idle: 10        #连接池中允许的最小连接数
+      auto-commit: true       #自动提交
+      idle-timeout: 30000     #一个连接idle状态的最大时长（毫秒），超时则被释放（retired）
+      connection-test-query: SELECT 1
+      connection-timeout: 30000
+  redis:
+    database: 0
+    port: 6379
+    host: localhost
+    password: mizhuo
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+feign:
+  okhttp:
+    enabled: true
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: basic
+# 自定义redis key
+redis:
+  database: marryme
+  key:
+    authCode: 'authCode:'
+    user: 'user:'
+  expire:
+    authCode: 90 # 验证码超期时间
+    common: 86400 # 24小时
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml    # mapper映射文件
+  global-config:
+    db-config:
+      table-prefix: t_
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
