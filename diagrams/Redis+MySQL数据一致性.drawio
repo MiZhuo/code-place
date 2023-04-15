@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-15T09:43:54.815Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.39" etag="ZOcjbEPew4iRdktRjxxh" version="21.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-15T14:05:42.067Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.39" etag="36u2R6Itu05YSp3hN3uZ" version="21.1.8" type="github">
   <diagram name="第 1 页" id="IvlxRPcr9S85pukTLJrn">
     <mxGraphModel dx="1434" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -347,6 +347,113 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TIFLglgk5Ewr3xesY14H-117" value="8:返回数据20" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontColor=#FF3333;" connectable="0" vertex="1" parent="TIFLglgk5Ewr3xesY14H-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TIFLglgk5Ewr3xesY14H-143" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="850" y="1151" width="80" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="TIFLglgk5Ewr3xesY14H-144" value="" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="TIFLglgk5Ewr3xesY14H-143">
+          <mxGeometry x="13.33" width="53.33" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TIFLglgk5Ewr3xesY14H-145" value="用户B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="TIFLglgk5Ewr3xesY14H-143">
+          <mxGeometry x="10.330000000000013" y="78" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TIFLglgk5Ewr3xesY14H-146" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" vertex="1" parent="1">
+          <mxGeometry x="1291.33" y="968.24" width="78" height="65.52" as="geometry" />
+        </mxCell>
+        <mxCell id="TIFLglgk5Ewr3xesY14H-147" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#2E27AD;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_mysql_instance;" vertex="1" parent="1">
+          <mxGeometry x="1291.33" y="1161" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="TIFLglgk5Ewr3xesY14H-148" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.application_server2" vertex="1" parent="1">
+          <mxGeometry x="1091.33" y="1061" width="67.94" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="TIFLglgk5Ewr3xesY14H-149" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#e51400;strokeColor=#B20000;exitX=0.9;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TIFLglgk5Ewr3xesY14H-144" target="TIFLglgk5Ewr3xesY14H-148">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="921.33" y="1191" as="sourcePoint" />
+            <mxPoint x="1091.33" y="1191" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TIFLglgk5Ewr3xesY14H-150" value="3:请求&lt;br&gt;查询数据stock" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontColor=#FF3333;" connectable="0" vertex="1" parent="TIFLglgk5Ewr3xesY14H-149">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TIFLglgk5Ewr3xesY14H-151" value="" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="864.67" y="961" width="55.33" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TIFLglgk5Ewr3xesY14H-152" value="用户A" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="1041" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TIFLglgk5Ewr3xesY14H-153" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.9;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="TIFLglgk5Ewr3xesY14H-151" target="TIFLglgk5Ewr3xesY14H-148">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="931.33" y="1201" as="sourcePoint" />
+            <mxPoint x="1091.33" y="1191" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TIFLglgk5Ewr3xesY14H-154" value="1:请求更新数据stock=10" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontColor=#66B2FF;" connectable="0" vertex="1" parent="TIFLglgk5Ewr3xesY14H-153">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TIFLglgk5Ewr3xesY14H-155" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" target="TIFLglgk5Ewr3xesY14H-147">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1160" y="1110" as="sourcePoint" />
+            <mxPoint x="1290" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TIFLglgk5Ewr3xesY14H-156" value="7:MySQL更新为10" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontColor=#66B2FF;" connectable="0" vertex="1" parent="TIFLglgk5Ewr3xesY14H-155">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TIFLglgk5Ewr3xesY14H-157" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" source="TIFLglgk5Ewr3xesY14H-148">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1411.33" y="1181" as="sourcePoint" />
+            <mxPoint x="1280" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TIFLglgk5Ewr3xesY14H-158" value="5:查询MySQL stock=20" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontColor=#FF3333;" connectable="0" vertex="1" parent="TIFLglgk5Ewr3xesY14H-157">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TIFLglgk5Ewr3xesY14H-159" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#e51400;strokeColor=#B20000;entryX=0.548;entryY=0.263;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="TIFLglgk5Ewr3xesY14H-148">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="1001" as="sourcePoint" />
+            <mxPoint x="1281.33" y="1071" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TIFLglgk5Ewr3xesY14H-160" value="4:Redis未命中" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontColor=#FF3333;" connectable="0" vertex="1" parent="TIFLglgk5Ewr3xesY14H-159">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TIFLglgk5Ewr3xesY14H-161" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.051;entryY=0.088;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="TIFLglgk5Ewr3xesY14H-148" target="TIFLglgk5Ewr3xesY14H-146">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1381.33" y="1191" as="sourcePoint" />
+            <mxPoint x="1541.33" y="1191" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TIFLglgk5Ewr3xesY14H-162" value="2:删除Redis" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontColor=#3399FF;" connectable="0" vertex="1" parent="TIFLglgk5Ewr3xesY14H-161">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TIFLglgk5Ewr3xesY14H-163" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#e51400;strokeColor=#B20000;exitX=0.562;exitY=0.588;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TIFLglgk5Ewr3xesY14H-148">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1140" y="1100" as="sourcePoint" />
+            <mxPoint x="1300" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TIFLglgk5Ewr3xesY14H-164" value="6:回写缓存20" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontColor=#FF3333;" connectable="0" vertex="1" parent="TIFLglgk5Ewr3xesY14H-163">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TIFLglgk5Ewr3xesY14H-165" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.013;exitY=0.698;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1091.33" y="1131" as="sourcePoint" />
+            <mxPoint x="921.33" y="1221" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TIFLglgk5Ewr3xesY14H-166" value="9:返回数据20" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontColor=#FF3333;" connectable="0" vertex="1" parent="TIFLglgk5Ewr3xesY14H-165">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TIFLglgk5Ewr3xesY14H-170" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.011;exitY=0.797;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="TIFLglgk5Ewr3xesY14H-148">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="970" as="sourcePoint" />
+            <mxPoint x="1320" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TIFLglgk5Ewr3xesY14H-171" value="8:删除Redis" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontColor=#3399FF;" connectable="0" vertex="1" parent="TIFLglgk5Ewr3xesY14H-170">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
